@@ -1,0 +1,35 @@
+.hero {
+  background: url("/assets/images/desktop-hero-img.png") no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px){
+  .hero {
+    background: url("/assets/images/mobile-hero-img.png") no-repeat center;
+    background-size: cover;
+  }
+}
+
+.iphone-16-pro-section {
+  background: url("/assets/images/iPhone-16-pro-desktop.jpg") no-repeat center;
+  background-size: 3008px 692px;
+}
+
+@media screen and (max-width: 991px){
+  .iphone-16-pro-section {
+    background: url("/assets/images/iPhone-16-pro-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+}
+
+.iphone-16-section {
+  background: url("/assets/images/iphone16-desktop.jpg") no-repeat center;
+  background-size: 3008px 692px;
+}
+
+@media screen and (max-width: 991px){
+  .iphone-16-section {
+    background: url("/assets/images/iphone16-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+}
