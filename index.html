@@ -10,14 +10,14 @@
       type="image/x-icon"
     />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="w-full min-h-full">
-
+  <body class="max-w-full min-h-full antialiased overflow-x-hidden">
     <!-- Header Section -->
-
     <header class="h-12 w-full">
-      <div class="h-full w-10/12 lg:w-4/6 mx-auto flex justify-between items-center">
+      <div
+        class="h-full w-11/12 lg:w-4/6 mx-auto flex justify-between items-center"
+      >
         <a href="#">
           <svg
             height="44"
@@ -78,46 +78,1484 @@
               ></path>
             </svg>
           </span>
-          <span class="lg:hidden flex items-center justify-center cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-            </svg>            
+          <span
+            class="lg:hidden flex items-center justify-center cursor-pointer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 9h16.5m-16.5 6.75h16.5"
+              />
+            </svg>
           </span>
         </div>
       </div>
     </header>
 
     <!-- Hero Section -->
-     <section class="flex items-center text-center hero relative w-full h-[calc(100vh-48px)]">
-      <div class="min-w-[300px] w-1/3 absolute bottom-20 left-1/2 transform -translate-x-1/2 bottom-20 right-50%">
-        <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">Valentine's Day</h1>
-        <p class="md:text-xl lg:text-3xl font-semibold my-3">Last chance to find something special for your special someone.</p>
-        <button class="px-5 py-2 bg-blue-500 rounded-full text-xl text-white">Shop</button>
+    <section
+      class="flex items-center text-center hero relative w-full h-[calc(100vh-48px)]"
+    >
+      <div
+        class="min-w-[250px] w-1/3 absolute bottom-7 md:bottom-13 lg:bottom-20 left-1/2 transform -translate-x-1/2 right-50%"
+      >
+        <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">
+          Valentine's Day
+        </h1>
+        <p class="md:text-xl lg:text-3xl font-semibold my-3">
+          Last chance to find something special for your special someone.
+        </p>
+        <button
+          class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 rounded-full md:text-xl text-white cursor-pointer"
+        >
+          Shop
+        </button>
       </div>
-     </section>
+    </section>
 
-     <!-- iPhone 16 pro section -->
-      <section class="flex justify-center text-white text-center h-[90vh] iphone-16-pro-section">
-        <div class="h-fit min-w-[300px] w-1/3 mt-10">
-          <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">iPhone 16 Pro</h1>
-          <p class="md:text-xl lg:text-3xl font-semibold my-3">Hello, Apple Intelligence</p>
+    <!-- iPhone 16 pro section -->
+    <section
+      class="flex justify-center text-white text-center h-[90vh] iphone-16-pro-section"
+    >
+      <div class="h-fit min-w-[300px] w-1/3 mt-10">
+        <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">iPhone 16 Pro</h1>
+        <p class="md:text-xl lg:text-3xl font-semibold my-3">
+          Hello, Apple Intelligence
+        </p>
+        <div>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 rounded-full md:text-xl text-white cursor-pointer"
+          >
+            Learn more
+          </button>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 border-1 border-blue-500 bg-transparent rounded-full md:text-xl text-white cursor-pointer"
+          >
+            Buy
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- iPhone 16  section -->
+    <section
+      class="flex justify-center text-white text-center h-[90vh] iphone-16-section"
+    >
+      <div class="h-fit min-w-[300px] w-1/3 mt-10">
+        <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">iPhone 16</h1>
+        <p class="md:text-xl lg:text-3xl font-semibold my-3">
+          Hello, Apple Intelligence
+        </p>
+        <div>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 bg-white rounded-full md:text-xl text-black cursor-pointer"
+          >
+            Learn more
+          </button>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 border-1 border-white bg-transparent rounded-full md:text-xl text-white cursor-pointer"
+          >
+            Buy
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Watch series 10 section -->
+
+    <section
+      class="flex justify-center text-white text-center h-[90vh] watch-10"
+    >
+      <div class="h-fit min-w-[300px] w-1/3 mt-10">
+        <span class="flex gap-1 lg:gap-3 justify-center">
+          <img
+            class="size-6 md:size-8 lg:size-12"
+            src="/assets/images/apple-14.svg"
+            alt=""
+          />
+          <span
+            class="uppercase text-black text-xl lg:text-5xl md:text-3xl font-bold"
+            >Watch</span
+          >
+        </span>
+        <span class="uppercase text-black font-semibold text-xl"
+          >Series 10</span
+        >
+        <p class="md:text-xl lg:text-3xl font-semibold my-3 text-black">
+          Thinstant classic
+        </p>
+        <div>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 rounded-full md:text-xl text-white cursor-pointer"
+          >
+            Learn more
+          </button>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 border-1 border-blue-500 bg-transparent rounded-full md:text-xl text-blue-500 cursor-pointer"
+          >
+            Buy
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product grid section -->
+
+    <section class="w-full grid md:grid-cols-2 md:gap-3 relative">
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_apple_watch_unity__casvx9ysh1le_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute top-5 left-1/2 transform -translate-x-1/2"
+        >
+          <span class="flex gap-1 lg:gap-3 justify-center">
+            <img
+              class="size-5 md:size-7 lg:size-10 invert"
+              src="/assets/images/apple-14.svg"
+              alt=""
+            />
+            <span
+              class="uppercase text-black lg:text-4xl md:text-xl font-bold text-white"
+              >Watch</span
+            >
+          </span>
+          <p class="text-center md:text-lg lg:text-xl px-5">
+            United by rhythm. Discover the new Black Unity watch band and face
+          </p>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 bg-white text-black rounded-full shadow-md cursor-pointer"
+          >
+            Buy
+          </button>
+        </div>
+      </div>
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_macbook_air_m3__e43jegok3wuq_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute top-5 left-1/2 transform -translate-x-1/2"
+        >
+          <p
+            class="text-black sm:text-xl md:text-3xl lg:text-4xl font-semibold"
+          >
+            MacBook Air
+          </p>
+          <p class="text-center text-black md:text-lg lg:text-xl">
+            Lean. Mean. M3 machine.
+          </p>
           <div>
-            <button class="px-5 py-2 bg-blue-500 rounded-full text-xl text-white">Learn more</button>
-            <button class="px-5 py-2 border-1 border-blue-500 bg-transparent rounded-full text-xl text-white">Buy</button>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 text-white font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Learn more
+            </button>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-transparent border-1 border-blue-500 text-blue-500 font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_ipadpro_avail__s271j89g8kii_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute top-5 left-1/2 transform -translate-x-1/2"
+        >
+          <p
+            class="text-white sm:text-xl md:text-3xl lg:text-4xl font-semibold"
+          >
+            iPad Pro
+          </p>
+          <p class="text-center text-white md:text-lg lg:text-xl">
+            Unbelievably thin. Incredibly powerful
+          </p>
+          <div>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 text-white font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Learn more
+            </button>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-transparent border-1 border-blue-500 text-blue-500 font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute bottom-5 left-1/2 transform -translate-x-1/2"
+        >
+          <p
+            class="text-white sm:text-xl md:text-3xl lg:text-4xl font-semibold"
+          >
+            AirPods Pro 2
+          </p>
+          <p class="text-center text-white md:text-lg lg:text-xl">
+            Now with a Hearing Aid feature. <sup>1</sup>
+          </p>
+          <div>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 text-white font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Learn more
+            </button>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-transparent border-1 border-blue-500 text-blue-500 font-semibold rounded-full shadow-md cursor-pointer"
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_iphone_tradein__bugw15ka691e_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute top-5 left-1/2 transform -translate-x-1/2"
+        >
+          <span class="flex justify-center">
+            <img
+              class="size-5 md:size-7 lg:size-10"
+              src="/assets/images/apple-14.svg"
+              alt=""
+            />
+            <span class="lg:text-4xl md:text-xl font-bold text-black"
+              >Trade In</span
+            >
+          </span>
+          <p class="text-center text-black md:text-lg lg:text-xl px-5">
+            Get $180 - $650 in credit when you trade in iPhone 12 or higher.
+            <sup>2</sup>
+          </p>
+          <button
+            class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 text-white rounded-full shadow-md cursor-pointer"
+          >
+            Get your estimate
+          </button>
+        </div>
+      </div>
+      <div class="aspect-3/2 relative">
+        <img
+          class="size-full object-cover"
+          src="assets/images/promo_apple_card__5cm7draujpey_large.jpg"
+          alt=""
+        />
+        <div
+          class="min-w-[300px] flex flex-col gap-1 md:gap-2 lg:gap-3 text-white items-center justify-center absolute top-5 left-1/2 transform -translate-x-1/2"
+        >
+          <span class="flex justify-center">
+            <img
+              class="size-5 md:size-7 lg:size-10"
+              src="/assets/images/apple-14.svg"
+              alt=""
+            />
+            <span class="lg:text-4xl md:text-xl font-bold text-black"
+              >Card</span
+            >
+          </span>
+          <p class="text-center text-black md:text-lg lg:text-xl px-5">
+            Get upto 3% Daily Cash back with every purchase.
+          </p>
+          <div>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-blue-500 text-white rounded-full shadow-md cursor-pointer"
+            >
+              Learn more
+            </button>
+            <button
+              class="px-3 py-1 md:px-5 md:py-2 bg-transparent border-1 border-blue-500 text-blue-500 rounded-full cursor-pointer"
+            >
+              Apply now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apple Tv Section -->
+    <section
+      class="relative w-full h-1/2 md:h-2/3 lg:h-4/6 flex justify-center items-center overflow-hidden my-5"
+    >
+      <!-- Carousel container -->
+      <div
+        id="carousel"
+        class="flex gap-5 overflow-x-scroll scroll-smooth w-full h-full snap-x snap-mandatory"
+      >
+        <!-- Slide 1 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/the-george-large.jpg"
+            alt="Image 1"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="w-4/5 flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="size-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-xl text-white">
+              <span class="font-semibold">Thriller</span> &bull; The world's
+              most dangerous secret lies between them.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/severance-large.jpg"
+            alt="Image 2"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Thriller</span> &bull; There is more
+              to work than life.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/prime-target-large.jpg"
+            alt="Image 3"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Thriller</span> &bull; Leo Woodall
+              stars as a brilliant student unraveling a high stakes conspirancy
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/mythic-quest-large.jpg"
+            alt="Image 4"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Comedy</span> &bull; Reaching epic new
+              height
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/silo-large.jpg"
+            alt="Image 5"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Sci-Fi</span> &bull; New season
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/shrinking-large.jpg"
+            alt="Image 6"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Comedy</span> &bull; Getting it
+              together. Together
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/ted-lasso.jpg"
+            alt="Image 7"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Comedy</span> &bull; Kindness makes a
+              comeback.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/fly-me-to-the-moon.jpg"
+            alt="Image 8"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Comedy</span> &bull; Will they make
+              history...orfake it?
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 9 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/bad-sisters-large.jpg"
+            alt="Image 9"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Drama</span> &bull;Family it's a
+              killer
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 10 -->
+        <div class="w-4/5 h-full snap-center shrink-0 relative">
+          <img
+            src="/assets/images/slow-horses-large.jpg"
+            alt="Image 10"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div
+            class="flex items-center gap-1 md:gap-3 absolute bottom-1/12 left-1/12"
+          >
+            <button
+              class="w-fit bg-white text-black text-xs md:text-lg rounded-full shadow-md px-3 py-1 md:px-5 md:py-2 font-semibold cursor-pointer"
+            >
+              Stream Now
+            </button>
+            <p class="hidden md:block text-white">
+              <span class="font-semibold">Thriller</span> &bull; Emmy
+              <sup>&reg;</sup> Award winner
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apple Music/Podcast section -->
+    <section
+      id="img-section"
+      class="w-full h-2/5 overflow-x-auto flex gap-3 snap-x snap-mandatory scroll-smooth"
+    >
+      <div
+        class="min-w-[200px] min-w-[200px] w-2/7 aspect-[2/1] shrink-0 snap-start"
+      >
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/images/238x134 (1).jpg"
+          alt=""
+        />
+      </div>
+      <div class="min-w-[200px] w-2/7 aspect-[2/1] shrink-0 snap-start">
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/images/238x134 (1).jpg"
+          alt=""
+        />
+      </div>
+      <div class="min-w-[200px] w-2/7 aspect-[2/1] shrink-0 snap-start">
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/images/238x134 (1).jpg"
+          alt=""
+        />
+      </div>
+      <div class="min-w-[200px] w-2/7 aspect-[2/1] shrink-0 snap-start">
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/images/238x134 (1).jpg"
+          alt=""
+        />
+      </div>
+      <div class="min-w-[200px] w-2/7 aspect-[2/1] shrink-0 snap-start">
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/images/238x134 (1).jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 mt-12">
+      <!-- Notes section -->
+      <div
+        class="w-4/5 md:w-2/3 mx-auto text-xs space-y-5 py-5 text-gray-600 border-b border-gray-300"
+      >
+        <p>
+          1. Hearing Aid and Hearing Test: The Hearing Aid feature has received
+          FDA authorization. The Hearing Test and Hearing Aid features are
+          supported on AirPods Pro 2 with the latest firmware paired with a
+          compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are
+          intended for people 18 years old or older. The Hearing Aid feature is
+          also supported on a compatible Mac with macOS Sequoia and later. It is
+          intended for people with perceived mild to moderate hearing loss.
+        </p>
+
+        <p>
+          Hearing Protection: The Hearing Protection feature works with AirPods
+          Pro 2 with the latest firmware when paired with a compatible iPhone,
+          iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later.
+          Feature is only available in the U.S. and Canada. See
+          support.apple.com/120850 for total attenuation and more information.
+          The Hearing Protection feature is not suitable for protection against
+          extremely loud impulse sounds, such as gunfire, fireworks, or
+          jackhammers, or against sustained sounds louder than 110 dBA.
+        </p>
+
+        <p>
+          2. Trade‑in values will vary based on the condition, year, and
+          configuration of your eligible trade‑in device. Not all devices are
+          eligible for credit. You must be at least the age of majority to be
+          eligible to trade in for credit or for an Apple Gift Card. Trade‑in
+          value may be applied toward qualifying new device purchase, or added
+          to an Apple Gift Card. Actual value awarded is based on receipt of a
+          qualifying device matching the description provided when estimate was
+          made. Sales tax may be assessed on full value of a new device
+          purchase. In‑store trade‑in requires presentation of a valid photo ID
+          (local law may require saving this information). Offer may not be
+          available in all stores, and may vary between in‑store and online
+          trade‑in. Some stores may have additional requirements. Apple or its
+          trade‑in partners reserve the right to refuse, cancel, or limit
+          quantity of any trade‑in transaction for any reason. More details are
+          available from Apple’s trade-in partner for trade‑in and recycling of
+          eligible devices. Restrictions and limitations may apply.
+        </p>
+
+        <p>
+          To access and use all Apple Card features and products available only
+          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
+          iPad that supports and has the latest version of iOS or iPadOS. Apple
+          Card is subject to credit approval, available only for qualifying
+          applicants in the United States, and issued by Goldman Sachs Bank USA,
+          Salt Lake City Branch.
+        </p>
+        <p>
+          If you reside in the U.S. territories, please call Goldman Sachs at
+          877-255-5923 with questions about Apple Card.
+        </p>
+        <p>
+          Learn more about how Apple Card applications are evaluated at
+          support.apple.com/kb/HT209218.
+        </p>
+
+        <p>
+          Apple Intelligence is available in beta on all iPhone 16 models,
+          iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and
+          Mac models with M1 and later, with Siri and device language set to
+          English (Australia, Canada, Ireland, New Zealand, South Africa, UK, or
+          U.S.), as part of an iOS 18, iPadOS 18, and macOS Sequoia software
+          update. Additional features and languages will be available in April,
+          with more languages coming over the course of the year. Languages
+          supported in 2025 include Chinese, English (India, Singapore), French,
+          German, Italian, Japanese, Korean, Portuguese, Spanish, and
+          Vietnamese.
+        </p>
+
+        <p>
+          A subscription is required for Apple Arcade, Apple Fitness+, Apple
+          Music, and Apple TV+.
+        </p>
+
+        <p>
+          Features are subject to change. Some features, applications, and
+          services may not be available in all regions or all languages.
+        </p>
+      </div>
+
+      <!-- Footer links section -->
+
+      <section class="hidden md:block">
+        <div class="mt-5 w-4/5 md:w-2/3 mx-auto flex">
+          <div class="w-1/5">
+            <h3 class="text-sm font-semibold mb-2 text-gray-800">
+              Shop and Learn
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                iPad
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                iPhone
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Watch
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Vision
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Airpods
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Tv & Home
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                AirTag
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Accessories
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Gift Cards
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mt-5 mb-2 text-gray-800">
+              Apple Wallet
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Wallet
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Card
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Pay
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Cash
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-1/5">
+            <h3 class="text-sm font-semibold mb-2 text-gray-800">Account</h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Manage Your Apple Account
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Store Account
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                iCloud.com
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mb-2 text-gray-800 mt-5">
+              Entertainmant
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple One
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Tv+
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple One
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Music
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Arcade
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Fitness+
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple News+
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Podcasts
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Books
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Store
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-1/5">
+            <h3 class="text-sm font-semibold mb-2 text-gray-800">
+              Apple Store
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Find a Store
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Genius Bar
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Today at Apple
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Group Reservations
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Today at Apple
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Camp
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Store App
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Certified Refurbished
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Trade In
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Financing
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Career Deals at Apple
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Order Status
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shopping Help
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-1/5">
+            <h3 class="text-sm font-semibold mb-2 text-gray-800">
+              For Business
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple and Bussiness
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop for Bussiness
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mb-2 text-gray-800 mt-5">
+              For Education
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple and Education
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop for K-12
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop for College
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mb-2 text-gray-800 mt-5">
+              For Healthcare
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple in Healthcare
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Mac in Healthcare
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Health on Apple Watch
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Health records on iPhone and iPad
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mb-2 text-gray-800 mt-5">
+              For Government
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop for Government
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Shop for Veterans and Military
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-1/5">
+            <h3 class="text-sm font-semibold mb-2 text-gray-800">
+              Apple Values
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Accessibility
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Education
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Inclution and Divercity
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Privacy
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Racical Equity and Jusctice
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Supply Chain
+              </li>
+            </ul>
+
+            <h3 class="text-sm font-semibold mb-2 text-gray-800 mt-5">
+              About Apple
+            </h3>
+            <ul class="space-y-2">
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Newsroom
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Apple Leadership
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Career Opputunity
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Investors
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Ethics & Compliance
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Events
+              </li>
+              <li class="text-xs text-gray-600 cursor-pointer hover:underline">
+                Contact Apple
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
-     <!-- iPhone 16  section -->
-      <section class="flex justify-center text-white text-center h-[90vh] iphone-16-section">
-        <div class="h-fit min-w-[300px] w-1/3 mt-10">
-          <h1 class="text-xl md:text-3xl lg:text-5xl font-bold">iPhone 16</h1>
-          <p class="md:text-xl lg:text-3xl font-semibold my-3">Hello, Apple Intelligence</p>
-          <div>
-            <button class="px-5 py-2 bg-white rounded-full text-xl text-black">Learn more</button>
-            <button class="px-5 py-2 border-1 border-white bg-transparent rounded-full text-xl text-white">Buy</button>
+      <!-- Accordion section for small screen -->
+      <section class="w-4/5 md:hidden mx-auto">
+        <!-- Accordion Item 1 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(1)"
+            class="cursor-pointer w-full flex justify-between items-center py-5 text-slate-800"
+          >
+            <span class="text-sm">Shop and Learn</span>
+            <span
+              id="icon-1"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-1"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">Store</li>
+              <li class="cursor-pointer hover:underline">Mac</li>
+              <li class="cursor-pointer hover:underline">iPhone</li>
+              <li class="cursor-pointer hover:underline">iPad</li>
+              <li class="cursor-pointer hover:underline">Watch</li>
+              <li class="cursor-pointer hover:underline">Vision</li>
+              <li class="cursor-pointer hover:underline">Tv & Home</li>
+              <li class="cursor-pointer hover:underline">AirTag</li>
+              <li class="cursor-pointer hover:underline">Accessories</li>
+              <li class="cursor-pointer hover:underline">Gift Cards</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(2)"
+            class="cursor-pointer w-full flex justify-between items-center py-5 text-slate-800"
+          >
+            <span class="text-sm">Apple Wallet</span>
+            <span
+              id="icon-2"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-2"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <div class="pb-5 text-xs text-slate-500">
+              <ul class="pb-5 text-xs text-slate-500 space-y-3">
+                <li class="cursor-pointer hover:underline">Wallet</li>
+                <li class="cursor-pointer hover:underline">Apple Card</li>
+                <li class="cursor-pointer hover:underline">Apple Pay</li>
+                <li class="cursor-pointer hover:underline">Apple Cash</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(3)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">Account</span>
+            <span
+              id="icon-3"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-3"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">
+                Manage Your Apple Account
+              </li>
+              <li class="cursor-pointer hover:underline">
+                Apple Store Account
+              </li>
+              <li class="cursor-pointer hover:underline">iCloud.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(4)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">Entertainmant</span>
+            <span
+              id="icon-4"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-4"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">Apple One</li>
+              <li class="cursor-pointer hover:underline">Apple Tv+</li>
+              <li class="cursor-pointer hover:underline">Apple One</li>
+              <li class="cursor-pointer hover:underline">Apple Music</li>
+              <li class="cursor-pointer hover:underline">Apple Arcade</li>
+              <li class="cursor-pointer hover:underline">Apple Fitness+</li>
+              <li class="cursor-pointer hover:underline">Apple News+</li>
+              <li class="cursor-pointer hover:underline">Apple Podcasts</li>
+              <li class="cursor-pointer hover:underline">Apple Books</li>
+              <li class="cursor-pointer hover:underline">Apple Store</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion Item 5 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(5)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">Apple Store</span>
+            <span
+              id="icon-5"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-5"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">Find a Store</li>
+              <li class="cursor-pointer hover:underline">Genius Bar</li>
+              <li class="cursor-pointer hover:underline">Today at Apple</li>
+              <li class="cursor-pointer hover:underline">Apple Music</li>
+              <li class="cursor-pointer hover:underline">Group Reservation</li>
+              <li class="cursor-pointer hover:underline">Apple Camp</li>
+              <li class="cursor-pointer hover:underline">Apple Store App</li>
+              <li class="cursor-pointer hover:underline">
+                Certified Refurbished
+              </li>
+              <li class="cursor-pointer hover:underline">Apple Trade In</li>
+              <li class="cursor-pointer hover:underline">Financing</li>
+              <li class="cursor-pointer hover:underline">
+                Career Deals at Apple
+              </li>
+              <li class="cursor-pointer hover:underline">Order Status</li>
+              <li class="cursor-pointer hover:underline">Shopping Help</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(6)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">For Bussiness</span>
+            <span
+              id="icon-6"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-6"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">
+                Apple and Bussiness
+              </li>
+              <li class="cursor-pointer hover:underline">Shop for Bussiness</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion 7 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(7)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">For Education</span>
+            <span
+              id="icon-7"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-7"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">
+                Apple and Education
+              </li>
+              <li class="cursor-pointer hover:underline">Shop for K-12</li>
+              <li class="cursor-pointer hover:underline">Shop for College</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion 8 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(8)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">For Healthcare</span>
+            <span
+              id="icon-8"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-8"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">
+                Apple in Healthcare
+              </li>
+              <li class="cursor-pointer hover:underline">Mac in Healthcare</li>
+              <li class="cursor-pointer hover:underline">
+                Health on Apple Watch
+              </li>
+              <li class="cursor-pointer hover:underline">
+                Health records on iPhone and iPad
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion 9 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(9)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">For Government</span>
+            <span
+              id="icon-9"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-9"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">
+                Shop for Government
+              </li>
+              <li class="cursor-pointer hover:underline">
+                Shop for Veterans and Military
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion 10 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(10)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">Apple Values</span>
+            <span
+              id="icon-10"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-10"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">Accessibility</li>
+              <li class="cursor-pointer hover:underline">Education</li>
+              <li class="cursor-pointer hover:underline">Environment</li>
+              <li class="cursor-pointer hover:underline">
+                Inclution and Diversity
+              </li>
+              <li class="cursor-pointer hover:underline">Privacy</li>
+              <li class="cursor-pointer hover:underline">
+                Racial Equity and Justice
+              </li>
+              <li class="cursor-pointer hover:underline">Supply Chain</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Accordion 11 -->
+        <div class="border-b border-slate-200">
+          <button
+            onclick="toggleAccordion(11)"
+            class="w-full flex justify-between items-center py-5 text-slate-800 cursor-pointer"
+          >
+            <span class="text-sm">About Apple</span>
+            <span
+              id="icon-11"
+              class="text-slate-800 transition-transform duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            id="content-11"
+            class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+          >
+            <ul class="pb-5 text-xs text-slate-500 space-y-3">
+              <li class="cursor-pointer hover:underline">Newsroom</li>
+              <li class="cursor-pointer hover:underline">Apple Leadership</li>
+              <li class="cursor-pointer hover:underline">
+                Career Oppurtunities
+              </li>
+              <li class="cursor-pointer hover:underline">Investors</li>
+              <li class="cursor-pointer hover:underline">
+                Ethics and Complaince
+              </li>
+              <li class="cursor-pointer hover:underline">Events</li>
+              <li class="cursor-pointer hover:underline">Contact Apple</li>
+            </ul>
           </div>
         </div>
       </section>
+
+      <!-- Find a store and contact section -->
+      <div class="w-4/5 md:w-2/3 mx-auto py-3 border-b border-gray-300">
+        <p class="text-xs text-gray-600">
+          More ways to shop:
+          <a href="#" class="text-blue-500 underline">Find an Apple Store</a>
+          near you. Or call
+          <a href="#" class="text-blue-500 underline">1-800-MY-APPLE.</a>
+        </p>
+      </div>
+
+      <!-- Copyright Section -->
+      <div
+        class="w-4/5 md:w-2/3 mx-auto flex flex-col md:flex-row gap-3 md:gap-10 text-xs text-gray-600 py-4"
+      >
+        <p>Copyright &copy; 2025 Apple Inc. All rights reserved.</p>
+        <ul class="flex flex-wrap md:flex-nowrap gap-1 md:gap-3">
+          <li class="cursor-pointer hover:underline">Privacy Policy</li>
+          <li class="cursor-pointer hover:underline">Terms of Use</li>
+          <li class="cursor-pointer hover:underline">Sales and Refunds</li>
+          <li class="cursor-pointer hover:underline">Legal</li>
+          <li class="cursor-pointer hover:underline">Site Map</li>
+        </ul>
+        <span class="md:ml-auto cursor-pointer hover:underline"
+          >United States</span
+        >
+      </div>
+    </footer>
+
+    <!-- Script for Apple Tv section auto scroll -->
+    <script>
+      // Apple Tv section Auto-scroll every 3 seconds
+      let currentIndex = 0;
+      const images = document.querySelectorAll("#carousel img");
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        const carousel = document.getElementById("carousel");
+        const itemWidth = images[0].offsetWidth + 20; // Includes the gap
+        carousel.scrollTo({
+          left: currentIndex * itemWidth,
+          behavior: "smooth",
+        });
+      }, 3000);
+
+      // Footer Accordion toggle and change svg script
+      function toggleAccordion(index) {
+        const content = document.getElementById(`content-${index}`);
+        const icon = document.getElementById(`icon-${index}`);
+
+        // SVG for Minus icon
+        const minusSVG = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+        <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z" />
+      </svg>
+    `;
+
+        // SVG for Plus icon
+        const plusSVG = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+        <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+      </svg>
+    `;
+
+        // Toggle the content's max-height for smooth opening and closing
+        if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+          content.style.maxHeight = "0";
+          icon.innerHTML = plusSVG;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          icon.innerHTML = minusSVG;
+        }
+      }
+    </script>
   </body>
 </html>
